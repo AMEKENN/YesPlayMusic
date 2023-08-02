@@ -1,1 +1,8 @@
-https://nmapi.ameke.cn
+{
+  "rewrites": [ 
+     { 
+       "source": "/api/:match*", 
+       "destination": "https://nmapi.ameke.cn/:match*" 
+     } 
+   ] 
+}
